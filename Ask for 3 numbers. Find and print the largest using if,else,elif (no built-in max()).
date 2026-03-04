@@ -1,0 +1,16 @@
+print("Number One =",end=" ")
+num1=int(input())
+print("Number Two =",end=" ")
+num2=int(input())
+print("Number Three =",end=" ")
+num3=int(input())
+print("Largest Number =", end=" ")
+if num1>num2:
+  if num1>num3:
+    print(num1)
+  else:
+    print(num3)
+elif num2>num3:
+    print(num2)
+else:
+    print(num3)
