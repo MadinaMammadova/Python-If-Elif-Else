@@ -1,5 +1,6 @@
 print("Score =", end=" ")
 score=float(input())
+print("Grade =",end=" ")
 if score>=90:
     print("A")
 elif score>=80:
