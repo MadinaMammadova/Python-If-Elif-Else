@@ -1,6 +1,6 @@
 print("Number =", end=" ")
 number=int(input())
 if number%2==0:
-    print("Even")
+    print("Even Number")
 else:
-    print("Odd")
+    print("Odd Number")
