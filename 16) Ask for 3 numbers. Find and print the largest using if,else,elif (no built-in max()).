@@ -1,16 +1,16 @@
-print("Number One =",end=" ")
-num1=int(input())
-print("Number Two =",end=" ")
-num2=int(input())
-print("Number Three =",end=" ")
-num3=int(input())
+print("First Number =",end=" ")
+numberone=int(input())
+print("Second Number =",end=" ")
+numbertwo=int(input())
+print("Third Number =",end=" ")
+numberthree=int(input())
 print("Largest Number =", end=" ")
-if num1>num2:
-  if num1>num3:
-    print(num1)
+if numberone>numbertwo:
+  if numberone>numberthree:
+    print(numberone)
   else:
-    print(num3)
-elif num2>num3:
-    print(num2)
+    print(numberthree)
+elif numbertwo>numberthree:
+    print(numbertwo)
 else:
-    print(num3)
+    print(numberthree)
